@@ -11,4 +11,4 @@
 ![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/blob/master/img/model_structure_sample.png)
 ## 效果示例
 某次预测的结果。训练集是14个商品，验证集是2个商品，以下是在测试集1个商品下预测结果。
-![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/blob/master/img/model_structure_sample.png)
+![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/blob/master/img/predict_sample.png)
