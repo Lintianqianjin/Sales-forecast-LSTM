@@ -8,3 +8,7 @@
 其它的处理包括归一化什么的，让数据的绝对数值不要太大就行，利于训练。
 ## 网络结构
 比较简单的一个尝试，使用三层LSTM，激活函数用tanh,每一层接Dropout，最后接Dense。
+![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/img/model_structure_sample.png)
+## 效果示例
+某次预测的结果。训练集是14个商品，验证集是2个商品，以下是在测试集1个商品下预测结果。
+![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/img/predict_sample.png)
