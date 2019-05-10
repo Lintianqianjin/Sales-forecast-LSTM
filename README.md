@@ -10,5 +10,6 @@
 比较简单的一个尝试，使用三层LSTM，激活函数用tanh,每一层接Dropout，最后接Dense。
 ![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/blob/master/img/model_structure_sample.png)
 ## 效果示例
-某次预测的结果。训练集是14个商品，验证集是2个商品，以下是在测试集1个商品下预测结果。
+某次预测的结果。训练集是14个商品，验证集是2个商品，把表现最好的模型在测试集上测试。
+以下是在测试集1个商品上的预测结果，可以说泛化能力是挺不错的。销量的绝对误差大约是9，均方根误差大概是50。
 ![](https://github.com/Lintianqianjin/Sales-forecast-LSTM/blob/master/img/predict_sample.png)
